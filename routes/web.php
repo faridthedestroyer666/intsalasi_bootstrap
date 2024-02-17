@@ -24,6 +24,7 @@ Route::get('/home', function(){
 });
 
 Route::get('/home',[UserController::class,'index']);
+
 // Route::get('foo', function () {
 //     return 'Hello world';
 // });
